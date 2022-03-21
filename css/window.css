@@ -7,6 +7,7 @@ meta.window {
 }
 meta.titlebar {
   color: var(--pink);
+  background: var(--green);
   border-color: var(--pink);
 }
 meta.titlebar.inactive {
@@ -33,10 +34,11 @@ meta.button.disabled {
 }
 
 meta.textfield {
-  background-color: hsl(210, 5%, 13%);
-  border-color: hsl(210, 5%, 23%);
+  background-color: var(--pink);
+  border-color: var(--purple);
+  color: var(--white);
 }
 meta.textfield.highlighted {
-  background-color: hsl(210, 5%, 10%);
-  border-color: hsl(210, 5%, 23%);
+  background-color: var(--black);
+  border-color: var(--gray);
 }

@@ -7,6 +7,7 @@ meta.window {
 }
 meta.titlebar {
   color: #ec4899;
+  background: #22c55e;
   border-color: #ec4899;
 }
 meta.titlebar.inactive {
@@ -31,12 +32,13 @@ meta.button.highlighted.selected {
 meta.button.disabled {
 }
 meta.textfield {
-  background-color: hsl(210, 5%, 13%);
-  border-color: hsl(210, 5%, 23%);
+  background-color: #ec4899;
+  border-color: #a855f7;
+  color: #fafafa;
 }
 meta.textfield.highlighted {
-  background-color: hsl(210, 5%, 10%);
-  border-color: hsl(210, 5%, 23%);
+  background-color: #262626;
+  border-color: #a3a3a3;
 }
 meta {
   -theme-interface-style: dark;
