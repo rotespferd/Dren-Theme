@@ -7,8 +7,8 @@ meta.window {
 }
 meta.titlebar {
   color: #ec4899;
-  background: #22c55e;
-  border-color: #ec4899;
+  background: #ec4899;
+  border-color: #9d174d;
 }
 meta.titlebar.inactive {
   color: #3b82f6;
@@ -32,7 +32,7 @@ meta.button.highlighted.selected {
 meta.button.disabled {
 }
 meta.textfield {
-  background-color: #ec4899;
+  background-color: #9d174d;
   border-color: #a855f7;
   color: #fafafa;
 }
@@ -40,17 +40,12 @@ meta.textfield.highlighted {
   background-color: #262626;
   border-color: #a3a3a3;
 }
-meta {
-  -theme-interface-style: dark;
-  -theme-vibrancy: vibrant;
-  -theme-accent-color: auto;
-}
 /*
  * Document styles
  */
 meta.document {
-  background-color: hsl(210, 5%, 11%);
-  border-color: hsla(0, 0%, 100%, 0.1);
+  background-color: #262626;
+  border-color: #9d174d;
 }
 meta.document.button {
   background: linear-gradient(hsl(210, 5%, 25%), hsl(210, 5%, 21%));
@@ -69,6 +64,11 @@ meta.document.textfield {
 meta.document.textfield.highlighted {
   background-color: hsl(210, 5%, 10%);
   border-color: hsl(210, 5%, 19%);
+}
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: vibrant;
+  -theme-accent-color: auto;
 }
 /* Text */
 meta.text {

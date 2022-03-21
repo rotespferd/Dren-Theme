@@ -1,0 +1,27 @@
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: var(--black);
+  border-color: var(--pink-dark);
+}
+
+meta.document.button {
+  background: linear-gradient(hsl(210, 5%, 25%), hsl(210, 5%, 21%));
+  border: linear-gradient(hsl(210, 5%, 11%), hsl(210, 5%, 8%));
+}
+meta.document.button.disabled {
+  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+}
+meta.document.button.highlighted {
+  background: linear-gradient(hsl(210, 5%, 34%), hsl(210, 5%, 30%));
+}
+
+meta.document.textfield {
+  background-color: hsl(210, 5%, 10%);
+  border-color: hsl(210, 5%, 19%);
+}
+meta.document.textfield.highlighted {
+  background-color: hsl(210, 5%, 10%);
+  border-color: hsl(210, 5%, 19%);
+}
