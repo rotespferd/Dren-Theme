@@ -1,0 +1,39 @@
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: red;
+}
+meta.titlebar {
+  color: var(--some-color);
+  border-color: hsla(0, 0%, 0%, 0.6);
+}
+meta.titlebar.inactive {
+}
+
+meta.button {
+  background: linear-gradient(hsl(210, 5%, 32%), hsl(210, 5%, 25%));
+  border: linear-gradient(hsl(210, 5%, 17%), hsl(210, 5%, 13%));
+  color: white;
+}
+meta.button.highlighted {
+  background: linear-gradient(hsl(210, 5%, 42%), hsl(210, 5%, 34%));
+  color: white;
+}
+meta.button.selected {
+  color: white;
+}
+meta.button.highlighted.selected {
+  color: white;
+}
+meta.button.disabled {
+}
+
+meta.textfield {
+  background-color: hsl(210, 5%, 13%);
+  border-color: hsl(210, 5%, 23%);
+}
+meta.textfield.highlighted {
+  background-color: hsl(210, 5%, 10%);
+  border-color: hsl(210, 5%, 23%);
+}

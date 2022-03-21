@@ -1,3 +1,13 @@
 :root {
-  --some-color: red;
+  --red: #ef4444;
+  --pink: #ec4899;
+  --purple: #a855f7;
+  --blue: #3b82f6;
+  --green: #22c55e;
+  --lime: #84cc16;
+  --yellow: #eab308;
+  --orange: #f97316;
+
+  --white: #fafafa;
+  --black: #262626;
 }
