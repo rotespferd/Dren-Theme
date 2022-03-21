@@ -1,0 +1,28 @@
+/* Text */
+meta.text {
+  color: var(--white);
+}
+meta.text.invisible {
+  color: hsla(210, 100%, 90%, 0.15);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: var(--black-light);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: var(--pink-dark);
+}
+
+/* Gutter */
+meta.gutter {
+  color: var(--gray);
+}
+meta.gutter.selected {
+  background-color: var(--purple);
+  color: hsl(210, 17%, 76%);
+}
