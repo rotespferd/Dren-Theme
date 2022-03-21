@@ -1,0 +1,8 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npx postcss \\\n-o Themes\/Dren\\ Theme.css \\\ncss\/dren.css"
+    }
+  }
+}

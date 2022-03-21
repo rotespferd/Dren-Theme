@@ -1,0 +1,9 @@
+{
+  "identifier": "de.drentec.DrenTheme",
+  "name": "Dren Theme",
+  "organization": "Dren Tec",
+  "description": "Lorem ipsum, dolor sit amet.",
+  "version": "1.0",
+  "categories": ["themes"],
+  "bugs": ""
+}

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-css-variables": "^0.18.0",
+    "postcss-import": "^14.0.2"
+  }
+}
