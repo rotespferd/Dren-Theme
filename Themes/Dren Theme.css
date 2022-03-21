@@ -1,3 +1,8 @@
+:root {
+  /* normal: 500 */
+
+  /* dark: 800 */
+}
 /*
  * Window styles
  */
@@ -94,13 +99,13 @@ meta.gutter.selected {
  * Syntax styles
  */
 comment {
-  color: hsl(210, 20%, 50%);
+  color: #525252;
 }
 processing {
-  color: hsl(210, 20%, 50%);
+  color: #525252;
 }
 declaration {
-  color: hsl(210, 20%, 50%);
+  color: #525252;
 }
 bracket {
   color: hsl(210, 50%, 70%);

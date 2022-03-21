@@ -2,13 +2,13 @@
  * Syntax styles
  */
 comment {
-  color: hsl(210, 20%, 50%);
+  color: var(--gray-dark);
 }
 processing {
-  color: hsl(210, 20%, 50%);
+  color: var(--gray-dark);
 }
 declaration {
-  color: hsl(210, 20%, 50%);
+  color: var(--gray-dark);
 }
 bracket {
   color: hsl(210, 50%, 70%);
