@@ -30,4 +30,4 @@ Dren Theme also offers a lighter alternative:
 🎈 If your theme is based on existing work by someone else, consider crediting the original author
 -->
 
-Dren Theme is based on _Original Dren Theme_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+Dren Theme is based on the colours of [TailwindCSS](https://tailwindcss.com/docs/customizing-colors).

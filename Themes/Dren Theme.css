@@ -2,13 +2,16 @@
  * Window styles
  */
 meta.window {
-  background-color: red;
+  background-color: #262626;
+  border-color: #a3a3a3;
 }
 meta.titlebar {
-  color: red;
-  border-color: hsla(0, 0%, 0%, 0.6);
+  color: #ec4899;
+  border-color: #ec4899;
 }
 meta.titlebar.inactive {
+  color: #3b82f6;
+  border-color: #3b82f6;
 }
 meta.button {
   background: linear-gradient(hsl(210, 5%, 32%), hsl(210, 5%, 25%));

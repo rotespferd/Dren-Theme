@@ -2,13 +2,16 @@
  * Window styles
  */
 meta.window {
-  background-color: red;
+  background-color: var(--black);
+  border-color: var(--gray);
 }
 meta.titlebar {
-  color: var(--some-color);
-  border-color: hsla(0, 0%, 0%, 0.6);
+  color: var(--pink);
+  border-color: var(--pink);
 }
 meta.titlebar.inactive {
+  color: var(--blue);
+  border-color: var(--blue);
 }
 
 meta.button {
